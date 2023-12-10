@@ -15,8 +15,8 @@ const DashboardLayout = ({
            <div className="hidden md:flex w-56 flex-col fixed inset-y-0">
            <Sidebar/>
             </div>
-            <main className="md:pl-56 h-full">
-            {children}
+            <main className="md:pl-56 pt-[80px] h-full">
+             {children}
             </main>
         </div>
     )
